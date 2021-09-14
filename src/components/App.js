@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="container">
         <div className="nav">
-          <Link to="/"><h1>POKEDEX</h1></Link>
+          <Link to="/"><h1>POKEMON CHALLENGE</h1></Link>
         </div>
         <Switch>
           <Route exact path="/" component={PokemonList} />
